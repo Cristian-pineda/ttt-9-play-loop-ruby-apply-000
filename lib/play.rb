@@ -39,7 +39,7 @@ end
 def play(board)
   number_of_turns = 0
   until number_of_turns == 9
-    put turn(board)
+    puts turn(board)
     number_of_turns +=1
   end
 end
